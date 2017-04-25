@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="18b3fea1-01ca-4a2a-bab3-60c87e845aa0" name="Default" comment="" />
+    <list default="true" id="18b3fea1-01ca-4a2a-bab3-60c87e845aa0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -25,11 +27,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scss/layout/_header.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="384">
               <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -41,19 +53,19 @@
             <state relative-caret-position="128">
               <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
               <folding>
-                <marker date="1493112370112" expanded="true" signature="8955:8960" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9016:9056" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9104:9234" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9290:9367" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9386:9479" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9502:9580" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9610:9687" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9723:9806" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9826:9888" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="9912:10012" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="10019:10069" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="10090:10254" ph="{...}" />
-                <marker date="1493112370112" expanded="true" signature="10288:10468" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="8955:8960" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9016:9056" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9104:9234" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9290:9367" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9386:9479" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9502:9580" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9610:9687" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9723:9806" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9826:9888" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="9912:10012" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="10019:10069" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="10090:10254" ph="{...}" />
+                <marker date="1493112423608" expanded="true" signature="10288:10468" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -69,6 +81,9 @@
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
     </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -87,6 +102,7 @@
         <option value="$PROJECT_DIR$/app/js/main.js" />
         <option value="$PROJECT_DIR$/html/includes/_header.html" />
         <option value="$PROJECT_DIR$/scss/layout/_header.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -104,6 +120,7 @@
     <option name="width" value="1366" />
     <option name="height" value="738" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -274,6 +291,7 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GeekHub-Frontend-CMS-hw15-master" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v7.9.0/bin/node" />
+    <property name="add_unversioned_files" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -376,12 +394,12 @@
       <workItem from="1493017733182" duration="5829000" />
       <workItem from="1493029646875" duration="3485000" />
       <workItem from="1493033401414" duration="3692000" />
-      <workItem from="1493111210773" duration="1210000" />
+      <workItem from="1493111210773" duration="1455000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26319000" />
+    <option name="totallyTimeSpent" value="26564000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -399,7 +417,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24944155" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -682,19 +700,19 @@
         <state relative-caret-position="128">
           <caret line="160" column="30" lean-forward="true" selection-start-line="160" selection-start-column="30" selection-end-line="160" selection-end-column="30" />
           <folding>
-            <marker date="1493112370112" expanded="true" signature="8955:8960" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9016:9056" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9104:9234" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9290:9367" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9386:9479" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9502:9580" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9610:9687" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9723:9806" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9826:9888" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="9912:10012" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="10019:10069" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="10090:10254" ph="{...}" />
-            <marker date="1493112370112" expanded="true" signature="10288:10468" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="8955:8960" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9016:9056" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9104:9234" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9290:9367" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9386:9479" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9502:9580" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9610:9687" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9723:9806" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9826:9888" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="9912:10012" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="10019:10069" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="10090:10254" ph="{...}" />
+            <marker date="1493112423608" expanded="true" signature="10288:10468" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -719,6 +737,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
