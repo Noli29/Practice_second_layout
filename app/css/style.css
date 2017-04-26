@@ -280,57 +280,62 @@ footer {
 main {
   background-color: #ffffff;
   margin-bottom: 50px; }
-  main .words {
-    margin: 0 80px 50px 80px; }
-    main .words table tbody tr td {
-      padding-left: 19px;
-      padding-top: 40px;
-      text-align: left; }
-      main .words table tbody tr td:nth-child(even) a {
-        color: #000000;
-        font-family: HelveticaRegular, sans-serif;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 25px;
-        text-decoration: underline; }
-        main .words table tbody tr td:nth-child(even) a:hover {
-          text-decoration: none; }
-      main .words table tbody tr td:nth-child(odd) a {
-        padding: 8px 10px;
-        border: 1px solid #c6c6c6;
-        color: #000000;
-        font-family: HelveticaBold, sans-serif;
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 25px;
-        text-transform: uppercase;
-        text-decoration: none; }
-        main .words table tbody tr td:nth-child(odd) a:hover {
-          color: #fff;
-          background-color: #000; }
-  main .your-body {
-    margin: 0 80px 0 80px; }
-    main .your-body div h3 {
-      text-align: left;
+
+.words {
+  margin: 0 80px 50px 80px; }
+  .words table tbody tr td {
+    padding-left: 19px;
+    padding-top: 40px;
+    text-align: left; }
+    .words table tbody tr td:nth-child(even) a {
       color: #000000;
-      font: 300 34px/27px HelveticaLight, sans-serif; }
-    main .your-body div p {
-      text-align: left;
-      color: #545353;
-      font: 400 15px/19px HelveticaRegular, sans-serif; }
-    main .your-body div img {
-      position: relative;
-      margin-top: 50px;
-      margin-left: 10px;
-      width: 49%;
-      display: inline-block;
-      float: left; }
-    main .your-body div .what {
-      opacity: 0.44;
-      position: relative;
-      bottom: 0;
-      right: 0;
-      width: 48%; }
+      font-family: HelveticaRegular, sans-serif;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 25px;
+      text-decoration: underline; }
+      .words table tbody tr td:nth-child(even) a:hover {
+        text-decoration: none; }
+    .words table tbody tr td:nth-child(odd) a {
+      padding: 8px 10px;
+      border: 1px solid #c6c6c6;
+      color: #000000;
+      font-family: HelveticaBold, sans-serif;
+      font-size: 25px;
+      font-weight: 700;
+      line-height: 25px;
+      text-transform: uppercase;
+      text-decoration: none; }
+      .words table tbody tr td:nth-child(odd) a:hover {
+        color: #fff;
+        background-color: #000; }
+
+.bikes {
+  margin: 0 80px 50px 80px; }
+
+.your-body {
+  margin: 0 80px 0 80px; }
+  .your-body div h3 {
+    text-align: left;
+    color: #000000;
+    font: 300 34px/27px HelveticaLight, sans-serif; }
+  .your-body div p {
+    text-align: left;
+    color: #545353;
+    font: 400 15px/19px HelveticaRegular, sans-serif; }
+  .your-body div img {
+    position: relative;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 49%;
+    display: inline-block;
+    float: left; }
+  .your-body div .what {
+    opacity: 0.44;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    width: 48%; }
 
 main .your-body div a {
   position: relative;
