@@ -1,0 +1,39 @@
+main {
+  .your-body {
+    div {
+      a {
+        position: relative;
+        padding: 15px 40px;
+        text-decoration: none;
+        border-radius: 30px;
+        transition: .2s linear;
+
+        &.your-body-1 {
+          right: 200px;
+          bottom: 185px;
+          color: #000;
+          font: 400 20px/28px HelveticaRegular, sans-serif;
+          border: 2px solid #000000;
+
+          &:hover {
+            border: 2px solid #04bde5;
+            color: #04bde5;
+          }
+        }
+
+        &.your-body-2 {
+          left: 205px;
+          bottom: 185px;
+          color: #fff;
+          font: 700 20px/28px HelveticaBold, sans-serif;
+          border: 2px solid #fff;
+
+          &:hover {
+            border: 2px solid #04bde5;
+            color: #04bde5;
+          }
+        }
+      }
+    }
+  }
+}

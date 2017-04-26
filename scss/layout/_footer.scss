@@ -1,0 +1,60 @@
+footer {
+  height: 220px;
+  background-color: #373737;
+
+  div {
+    margin: 5px 50px;
+
+    .house {
+      width: 30%;
+      float: left;
+      text-align: left;
+
+      p {
+        font: 500 14px/10px PFDinDisplayProMedium, sans-serif;
+        color: #949494;
+
+        &:first-child {
+          font: 300 16px/24px PFDinDisplayProLight, sans-serif;
+        }
+      }
+    }
+
+    .address {
+      width: 23%;
+      float: left;
+      text-align: left;
+
+      p {
+        font: 500 14px/10px PFDinDisplayProMedium, sans-serif;
+        color: #949494;
+
+        &:first-child {
+          font: 300 16px/20px PFDinDisplayProLight, sans-serif;
+        }
+
+        &.copyright {
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 28px;
+          padding-top: 33px;
+        }
+      }
+    }
+
+    .email {
+      width: 22%;
+      float: left;
+      text-align: left;
+
+      p {
+        font: 500 14px/10px PFDinDisplayProMedium, sans-serif;
+        color: #949494;
+
+        &:first-child {
+          font: 300 16px/28px PFDinDisplayProLight, sans-serif;
+        }
+      }
+    }
+  }
+}

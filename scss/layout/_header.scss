@@ -21,6 +21,10 @@ header {
             font-weight: 300;
             line-height: 20px;
             text-decoration: underline;
+
+            &:hover {
+              text-decoration: none;
+            }
           }
         }
       }
@@ -71,6 +75,12 @@ header {
             padding: 7px 9px 8px;
             border: 2px solid #04bde5;
             transition: .2s linear;
+            background-color: #04bde5;
+
+            &:hover {
+              border: 2px solid #05dce5;
+              background-color: #05dce5;
+            }
 
             a {
               p {
@@ -87,10 +97,6 @@ header {
                 font-weight: 500;
                 line-height: 19px;
               }
-            }
-
-            &:hover {
-              background-color: #04bde5;
             }
           }
 
@@ -125,6 +131,13 @@ header {
         span {
           font-family: HelveticaThin, sans-serif;
           font-weight: 100;
+
+          &:first-child {
+            padding: 10px 5px 0;
+            background-color: #fff;
+            font: 100 70px/27px HelveticaBold, sans-serif;
+            border-bottom: 10px solid #04bde5;
+          }
         }
 
         &:last-child {

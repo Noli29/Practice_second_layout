@@ -1,25 +1,91 @@
 main {
   background-color: #ffffff;
-  height: 1000px;
+  margin-bottom: 50px;
 
   .words {
-    div {
-      p {
-        color: #000000;
-        font-family: HelveticaBold, sans-serif;
-        font-size: 25px;
-        font-weight: 700;
-        line-height: 25px;
-        text-transform: uppercase;
+    margin: 0 80px 50px 80px;
 
-        &:last-child {
-          color: #000000;
-          font-family: HelveticaRegular, sans-serif;
-          font-size: 15px;
-          font-weight: 400;
-          line-height: 25px;
-          text-decoration: underline;
+    table {
+      tbody {
+        tr {
+
+          td {
+            padding-left: 19px;
+            padding-top: 40px;
+            text-align: left;
+
+            &:nth-child(even) {
+              a {
+                color: #000000;
+                font-family: HelveticaRegular, sans-serif;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 25px;
+                text-decoration: underline;
+
+                &:hover {
+                  text-decoration: none;
+                }
+              }
+            }
+
+            &:nth-child(odd) {
+              a {
+                padding: 8px 10px;
+                border: 1px solid #c6c6c6;
+                color: #000000;
+                font-family: HelveticaBold, sans-serif;
+                font-size: 25px;
+                font-weight: 700;
+                line-height: 25px;
+                text-transform: uppercase;
+                text-decoration: none;
+
+                &:hover {
+                  color: #fff;
+                  background-color: #000;
+                }
+              }
+            }
+          }
         }
+      }
+    }
+  }
+
+  .your-body {
+    margin: 0 80px 0 80px;
+
+    div {
+
+      h3 {
+        text-align: left;
+        color: #000000;
+        font: 300 34px/27px HelveticaLight, sans-serif;
+      }
+
+      p {
+        text-align: left;
+        color: #545353;
+        font: 400 15px/19px HelveticaRegular, sans-serif;
+      }
+
+      img {
+        position: relative;
+        margin-top: 50px;
+        margin-left: 10px;
+        width: 49%;
+        display: inline-block;
+        float: left;
+      }
+
+
+      .what {
+        opacity: 0.44;
+        position:relative;
+        bottom: 0;
+        right: 0;
+        width: 48%;
       }
     }
   }

@@ -119,16 +119,6 @@
 }
 
 @font-face {
-  font-family: "HelveticaMediumItalic";
-  src: url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.eot");
-  src: url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.eot?#iefix")format("embedded-opentype"),
-  url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.woff") format("woff"),
-  url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-}
-
-@font-face {
   font-family: "HelveticaHeavyItalic";
   src: url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.eot");
   src: url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.eot?#iefix")format("embedded-opentype"),
@@ -154,6 +144,19 @@
   src: url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.eot?#iefix")format("embedded-opentype"),
   url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.woff") format("woff"),
   url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "PFDinDisplayProMedium";
+  src: url("../fonts/PFDinDisplayPro/PFDinDisplayPro-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "PFDinDisplayProLight";
+  src: url("../fonts/PFDinDisplayPro/PFDinDisplayPro-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal;
 }

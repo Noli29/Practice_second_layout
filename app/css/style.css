@@ -83,13 +83,6 @@
   font-weight: normal; }
 
 @font-face {
-  font-family: "HelveticaMediumItalic";
-  src: url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.eot");
-  src: url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.woff") format("woff"), url("../fonts/HelveticaMediumItalic/HelveticaMediumItalic.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal; }
-
-@font-face {
   font-family: "HelveticaHeavyItalic";
   src: url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.eot");
   src: url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.woff") format("woff"), url("../fonts/HelveticaHeavyItalic/HelveticaHeavyItalic.ttf") format("truetype");
@@ -107,6 +100,18 @@
   font-family: "HelveticaUltraLightItalic";
   src: url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.eot");
   src: url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.woff") format("woff"), url("../fonts/HelveticaUltraLightItalic/HelveticaUltraLightItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "PFDinDisplayProMedium";
+  src: url("../fonts/PFDinDisplayPro/PFDinDisplayPro-Light.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
+@font-face {
+  font-family: "PFDinDisplayProLight";
+  src: url("../fonts/PFDinDisplayPro/PFDinDisplayPro-Medium.ttf") format("truetype");
   font-style: normal;
   font-weight: normal; }
 
@@ -146,6 +151,8 @@ header {
           font-weight: 300;
           line-height: 20px;
           text-decoration: underline; }
+          header nav ul.navbar-left li a:hover {
+            text-decoration: none; }
     header nav ul.navbar-right li {
       display: inline-block;
       margin-left: 10px; }
@@ -177,7 +184,11 @@ header {
         border-radius: 50%;
         padding: 7px 9px 8px;
         border: 2px solid #04bde5;
-        transition: .2s linear; }
+        transition: .2s linear;
+        background-color: #04bde5; }
+        header nav ul.navbar-right li.icon-store:hover {
+          border: 2px solid #05dce5;
+          background-color: #05dce5; }
         header nav ul.navbar-right li.icon-store a p {
           top: -13px;
           right: 320px;
@@ -191,8 +202,6 @@ header {
           font-size: 14px;
           font-weight: 500;
           line-height: 19px; }
-        header nav ul.navbar-right li.icon-store:hover {
-          background-color: #04bde5; }
       header nav ul.navbar-right li.icon-phone {
         border-radius: 50%;
         padding: 11px 12px 9px;
@@ -212,6 +221,11 @@ header {
       header div.logo p span {
         font-family: HelveticaThin, sans-serif;
         font-weight: 100; }
+        header div.logo p span:first-child {
+          padding: 10px 5px 0;
+          background-color: #fff;
+          font: 100 70px/27px HelveticaBold, sans-serif;
+          border-bottom: 10px solid #04bde5; }
       header div.logo p:last-child {
         color: #6b6b6b;
         font: 300 20px/23px HelveticaLight, sans-serif; }
@@ -225,20 +239,120 @@ header {
       border: 2px solid #000;
       padding: 10px; }
 
+footer {
+  height: 220px;
+  background-color: #373737; }
+  footer div {
+    margin: 5px 50px; }
+    footer div .house {
+      width: 30%;
+      float: left;
+      text-align: left; }
+      footer div .house p {
+        font: 500 14px/10px PFDinDisplayProMedium, sans-serif;
+        color: #949494; }
+        footer div .house p:first-child {
+          font: 300 16px/24px PFDinDisplayProLight, sans-serif; }
+    footer div .address {
+      width: 23%;
+      float: left;
+      text-align: left; }
+      footer div .address p {
+        font: 500 14px/10px PFDinDisplayProMedium, sans-serif;
+        color: #949494; }
+        footer div .address p:first-child {
+          font: 300 16px/20px PFDinDisplayProLight, sans-serif; }
+        footer div .address p.copyright {
+          font-size: 12px;
+          font-weight: 300;
+          line-height: 28px;
+          padding-top: 33px; }
+    footer div .email {
+      width: 22%;
+      float: left;
+      text-align: left; }
+      footer div .email p {
+        font: 500 14px/10px PFDinDisplayProMedium, sans-serif;
+        color: #949494; }
+        footer div .email p:first-child {
+          font: 300 16px/28px PFDinDisplayProLight, sans-serif; }
+
 main {
   background-color: #ffffff;
-  height: 1000px; }
-  main .words div p {
-    color: #000000;
-    font-family: HelveticaBold, sans-serif;
-    font-size: 25px;
-    font-weight: 700;
-    line-height: 25px;
-    text-transform: uppercase; }
-    main .words div p:last-child {
+  margin-bottom: 50px; }
+  main .words {
+    margin: 0 80px 50px 80px; }
+    main .words table tbody tr td {
+      padding-left: 19px;
+      padding-top: 40px;
+      text-align: left; }
+      main .words table tbody tr td:nth-child(even) a {
+        color: #000000;
+        font-family: HelveticaRegular, sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        text-decoration: underline; }
+        main .words table tbody tr td:nth-child(even) a:hover {
+          text-decoration: none; }
+      main .words table tbody tr td:nth-child(odd) a {
+        padding: 8px 10px;
+        border: 1px solid #c6c6c6;
+        color: #000000;
+        font-family: HelveticaBold, sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 25px;
+        text-transform: uppercase;
+        text-decoration: none; }
+        main .words table tbody tr td:nth-child(odd) a:hover {
+          color: #fff;
+          background-color: #000; }
+  main .your-body {
+    margin: 0 80px 0 80px; }
+    main .your-body div h3 {
+      text-align: left;
       color: #000000;
-      font-family: HelveticaRegular, sans-serif;
-      font-size: 15px;
-      font-weight: 400;
-      line-height: 25px;
-      text-decoration: underline; }
+      font: 300 34px/27px HelveticaLight, sans-serif; }
+    main .your-body div p {
+      text-align: left;
+      color: #545353;
+      font: 400 15px/19px HelveticaRegular, sans-serif; }
+    main .your-body div img {
+      position: relative;
+      margin-top: 50px;
+      margin-left: 10px;
+      width: 49%;
+      display: inline-block;
+      float: left; }
+    main .your-body div .what {
+      opacity: 0.44;
+      position: relative;
+      bottom: 0;
+      right: 0;
+      width: 48%; }
+
+main .your-body div a {
+  position: relative;
+  padding: 15px 40px;
+  text-decoration: none;
+  border-radius: 30px;
+  transition: .2s linear; }
+  main .your-body div a.your-body-1 {
+    right: 200px;
+    bottom: 185px;
+    color: #000;
+    font: 400 20px/28px HelveticaRegular, sans-serif;
+    border: 2px solid #000000; }
+    main .your-body div a.your-body-1:hover {
+      border: 2px solid #04bde5;
+      color: #04bde5; }
+  main .your-body div a.your-body-2 {
+    left: 205px;
+    bottom: 185px;
+    color: #fff;
+    font: 700 20px/28px HelveticaBold, sans-serif;
+    border: 2px solid #fff; }
+    main .your-body div a.your-body-2:hover {
+      border: 2px solid #04bde5;
+      color: #04bde5; }
