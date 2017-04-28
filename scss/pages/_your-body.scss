@@ -22,6 +22,10 @@
       width: 49%;
       display: inline-block;
       float: left;
+
+      &.img-your-body {
+        filter: brightness(50%);
+      }
     }
 
 

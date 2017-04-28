@@ -1,3 +1,33 @@
 .bikes {
   margin: 0 80px 50px 80px;
+
+  div {
+    display: inline-block;
+    a {
+      text-decoration: none;
+      img {
+        transition: 0.2s;
+
+        &:hover {
+          -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+        }
+      }
+
+      span {
+        position: relative;
+        left: 120px;
+        padding-top: 25px;
+        color: #606060;
+        font: 300 16px/20px HelveticaLight, sans-serif;
+
+
+        &.heading {
+          padding-top: 55px;
+          color: #000000;
+          font: 700 25px/20px HelveticaLight, sans-serif;
+        }
+      }
+    }
+  }
 }
