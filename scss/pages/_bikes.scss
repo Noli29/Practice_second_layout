@@ -2,32 +2,60 @@
   margin: 0 80px 50px 80px;
 
   div {
-    display: inline-block;
-    a {
-      text-decoration: none;
-      img {
-        transition: 0.2s;
 
-        &:hover {
-          -webkit-filter: brightness(50%);
-          filter: brightness(50%);
-        }
-      }
+    .grid {
+      width: 100%;
 
-      span {
-        position: relative;
-        left: 120px;
-        padding-top: 25px;
-        color: #606060;
-        font: 300 16px/20px HelveticaLight, sans-serif;
+      .item {
+        display: inline-block;
 
+        a {
+          text-decoration: none;
+          img {
+            transition: 0.2s;
 
-        &.heading {
-          padding-top: 55px;
-          color: #000000;
-          font: 700 25px/20px HelveticaLight, sans-serif;
+            &:hover {
+              -webkit-filter: brightness(50%);
+              filter: brightness(50%);
+            }
+          }
+
+          .text {
+            margin-top: -340px;
+            padding-left: 20px;
+            position: absolute;
+
+            p {
+              text-align: left;
+              color: #606060;
+              font: 300 16px/20px HelveticaLight, sans-serif;
+
+              &:last-child {
+                margin-top: 0;
+
+                &.text-black {
+                  font: 100 31px/20px HelveticaLight, sans-serif;
+                  color: #000000;
+
+                  span {
+                    font: 700 31px HelveticaBold, sans-serif;
+                  }
+                }
+
+                &.text-white {
+                  font: 100 31px/20px HelveticaLight, sans-serif;
+                  color: white;
+
+                  span {
+                    font: 700 31px HelveticaBold, sans-serif;
+                  }
+                }
+              }
+            }
+          }
         }
       }
     }
+
   }
 }
