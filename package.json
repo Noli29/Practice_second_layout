@@ -17,6 +17,7 @@
     "gulp-sass": "^2.2.0"
   },
   "dependencies": {
+    "hamburgers": "^0.8.1",
     "imagesloaded": "^4.1.1",
     "masonry-layout": "^4.2.0"
   }
