@@ -319,7 +319,7 @@ main {
       .bikes div .grid .item a {
         text-decoration: none; }
         .bikes div .grid .item a img {
-          transition: 0.2s; }
+          transition: 1s; }
           .bikes div .grid .item a img:hover {
             -webkit-filter: brightness(50%);
             filter: brightness(50%); }
@@ -391,6 +391,7 @@ main .your-body div a {
       color: #04bde5; }
 
 main .bikes div .grid .item div a.btn-blue {
+  opacity: 0;
   margin-top: -245px;
   margin-left: -270px;
   position: absolute;
@@ -398,16 +399,15 @@ main .bikes div .grid .item div a.btn-blue {
   border: 2px solid #04bde5;
   padding: 7px 20px;
   text-decoration: none;
-  transition: .9s linear;
+  transition: .5s linear;
   color: #000000;
   font: 700 18px/20px HelveticaLight, sans-serif; }
   main .bikes div .grid .item div a.btn-blue span {
     font-size: 18px;
     font-weight: 100; }
-  main .bikes div .grid .item div a.btn-blue:hover {
-    margin-top: -200px; }
 
 main .bikes div .grid .item div a.btn-black {
+  opacity: 0;
   margin-top: -245px;
   margin-left: -130px;
   position: absolute;
@@ -423,6 +423,7 @@ main .bikes div .grid .item div a.btn-black {
     font-weight: 100; }
 
 main .bikes div .grid .item div a.btn-white {
+  opacity: 0;
   margin-top: -245px;
   margin-left: -130px;
   position: absolute;
@@ -552,6 +553,7 @@ main .your-body div a {
       color: #04bde5; }
 
 main .bikes div .grid .item div a.btn-blue {
+  opacity: 0;
   margin-top: -245px;
   margin-left: -270px;
   position: absolute;
@@ -559,16 +561,15 @@ main .bikes div .grid .item div a.btn-blue {
   border: 2px solid #04bde5;
   padding: 7px 20px;
   text-decoration: none;
-  transition: .9s linear;
+  transition: .5s linear;
   color: #000000;
   font: 700 18px/20px HelveticaLight, sans-serif; }
   main .bikes div .grid .item div a.btn-blue span {
     font-size: 18px;
     font-weight: 100; }
-  main .bikes div .grid .item div a.btn-blue:hover {
-    margin-top: -200px; }
 
 main .bikes div .grid .item div a.btn-black {
+  opacity: 0;
   margin-top: -245px;
   margin-left: -130px;
   position: absolute;
@@ -584,6 +585,7 @@ main .bikes div .grid .item div a.btn-black {
     font-weight: 100; }
 
 main .bikes div .grid .item div a.btn-white {
+  opacity: 0;
   margin-top: -245px;
   margin-left: -130px;
   position: absolute;

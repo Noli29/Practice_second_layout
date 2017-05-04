@@ -12,18 +12,11 @@
         a {
           text-decoration: none;
           img {
-            transition: 0.2s;
+            transition: 1s;
 
             &:hover {
               -webkit-filter: brightness(50%);
               filter: brightness(50%);
-            }
-          }
-
-          div {
-            a {
-              &.btn-blue {
-              }
             }
           }
           .text {
